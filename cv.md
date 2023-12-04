@@ -16,3 +16,21 @@
 - React, Redux
 - Typescript
 ---
+### Code:
+```javascript
+function isBracketsBalanced(str) {
+    const arr = ['{}', '[]', '()', '<>'];
+    let myStr = str;
+    let prevLength = myStr.length;
+    while (myStr.length) {
+        arr.map((item) => {
+            myStr = myStr.replaceAll(item, '');
+            return myStr;
+        });
+        if (prevLength === myStr.length) return false;
+        prevLength = myStr.length;
+    }
+    return true;
+}
+```
+---
