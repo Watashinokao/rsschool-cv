@@ -34,3 +34,10 @@ function isBracketsBalanced(str) {
 }
 ```
 ---
+### Courses:
+- JS/FE Pre-School 2023Q2
+- RS Schools Course JavaScript/Front-end 2023Q4 (now)
+- RS Schools Course React 2023 Q4 (now)
+---
+### Languages: English (B1)
+
